@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LiftBuddy"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.views.ChangePassword"
+            android:exported="false"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.SettingScreen"
+            android:exported="false"
+            android:label="@string/title_activity_setting_screen"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.SearchScreen"
+            android:exported="false"
+            android:label="@string/title_activity_search_screen"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.ResetPassword"
+            android:exported="false"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.AuthenticationScreen"
+            android:exported="false"
+            android:label="@string/title_activity_authentication_screen"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".navigation.NavigationManager"
+            android:exported="false" />
+        <activity
+            android:name=".ui.views.ForgotPassword"
+            android:exported="false"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.LiftBuddy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.views.ui.theme.LogInScreen"
+            android:exported="true"
+            android:label="@string/title_activity_log_in_screen"
+            android:theme="@style/Theme.LiftBuddy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false"
+            tools:ignore = "Instantiable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".ui.views.LogWeight"
+            android:exported="false"
+            android:label="@string/title_activity_log_weight"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.Dashboard"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.WelcomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_welcome_screen"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.ui.theme.WelcomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_welcome_screen"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".ui.views.SignUpScreen"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up_screen"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".views.signUpView"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up_view"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".views.signup"
+            android:exported="false" />
+        <activity
+            android:name=".view.Signup"
+            android:exported="false"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/Theme.LiftBuddy" />
+        <activity
+            android:name=".data.ui.theme.screens.login"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.LiftBuddy" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/purple_700" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LiftBuddy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

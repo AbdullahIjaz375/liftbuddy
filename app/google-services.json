@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "624366123723",
+    "project_id": "liftbuddy-f6442",
+    "storage_bucket": "liftbuddy-f6442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624366123723:android:6bbdc60d82c7633b76394e",
+        "android_client_info": {
+          "package_name": "com.example.liftbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4goxpw6TPwGDYZo_W21xRFv9GOg-WjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624366123723:android:e9496b695575396676394e",
+        "android_client_info": {
+          "package_name": "com.plcoding.animatedsplashscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4goxpw6TPwGDYZo_W21xRFv9GOg-WjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
